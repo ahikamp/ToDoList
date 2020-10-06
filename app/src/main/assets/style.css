@@ -1,0 +1,58 @@
+.emptylist{
+        color : red;
+        font-family: "Times New Roman";
+        text-align: center;
+        font-size: 30px;
+
+}
+
+.updatetask-btn{
+    margin-left: 40px;
+}
+
+.element-list{
+    border-style: double;
+    margin-left : 500px;
+    margin-right: 500px;
+    background-color: lightblue;
+}
+
+#delete-btn{
+
+    position: absolute;
+    margin-left : 783px;
+    margin-top : -35px;
+    background-color: lightblue;
+    border-color :lightblue;
+
+}
+
+#back-btn{
+
+    background-color: black;
+    border-color :black ;
+
+}
+
+#goToAddTask{
+     background-color: lightblue;
+
+}
+
+#addtask-btn{
+
+    background-color: lightblue;
+
+}
+#removeall-btn{
+
+    background-color: lightblue;
+
+
+}
+
+.pages{
+
+background-color: royalblue;
+
+}

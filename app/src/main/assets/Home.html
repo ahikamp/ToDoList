@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+
+
+    <script src="Myscript.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" charset="utf-8">
+
+</head>
+
+<body>
+
+
+<div id = "home-page" data-role = "page" class=pages> <!---home page--->
+    <header data-role="header" data-theme="b"  >
+        <h4 >ToDoListApp</h4>
+    </header>
+    <div data-role="content">
+
+        <button  class="addtask-page" id="goToAddTask"  data-icon= "plus" onclick=window.location.href="#addtask" >Add Task </button>
+
+
+        <ul id="tasklist">
+
+        </ul>
+
+
+        <br><br>
+        <button id = "removeall-btn"> Remove All</button>
+
+
+
+        <footer data-role="footer" data-theme="b">
+            <h4>by Ahikam Partush</h4>
+        </footer>
+
+    </div>
+
+</div>
+
+
+<div id="addtask" data-role="page" class ="pages">
+
+    <header data-role="header" data-theme="b" >
+        <h4 >ToDoListApp</h4>
+        <button id="back-btn" data-icon="back" onclick=window.location.href="#"></button>
+    </header>
+
+    <label>date:<input id="dateinput" type="date" ></label>
+    <label>description:<input id="descinput" type="text" placeholder="insert description" ></label>
+    <button id= "addtask-btn" onclick=window.location.href="#" >Add</button>
+
+
+    <footer data-role="footer" data-theme="b">
+        <h4>by Ahikam Partush</h4>
+        </footer>
+
+
+</div>
+
+
+<div id="update-task" data-role="page" class ="pages"> <!-- update task page --->
+
+    <header data-role="header" data-theme="b" >
+        <h4 >ToDoListApp</h4>
+        <button data-icon="back" onclick=window.location.href="#"></button>
+    </header>
+
+    <label>date:<input id="update-date" type="date" ></label>
+    <label>description:<input id="update-desc" type="text" ></label>
+    <button id= "updatetask-btn" onclick=window.location.href="#"  >update</button>
+
+
+    <footer data-role="footer" data-theme="b">
+        <h4>by Ahikam Partush</h4>
+    </footer>
+
+
+</div>
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
